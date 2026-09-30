@@ -1,0 +1,17 @@
+{
+  "_说明": "测试用：12个座位全部用智谱的同一个模型、同一个 key，先低成本跑通流程。完全不想花钱可以直接用 --mock。",
+  "players": [
+    {"name": "Claude Opus", "model": "glm-4.6v", "base_url": "https://open.bigmodel.cn/api/paas/v4/", "api_key_env": "ZHIPU_API_KEY", "voice": "zh-CN-YunjianNeural"},
+    {"name": "GPT-6 Astra", "model": "glm-4.6v", "base_url": "https://open.bigmodel.cn/api/paas/v4/", "api_key_env": "ZHIPU_API_KEY", "voice": "zh-CN-YunxiNeural"},
+    {"name": "DeepSeek", "model": "glm-4.6v", "base_url": "https://open.bigmodel.cn/api/paas/v4/", "api_key_env": "ZHIPU_API_KEY", "voice": "zh-TW-YunJheNeural"},
+    {"name": "元宝", "model": "glm-4.6v", "base_url": "https://open.bigmodel.cn/api/paas/v4/", "api_key_env": "ZHIPU_API_KEY", "voice": "zh-CN-XiaoxiaoNeural"},
+    {"name": "MiniMax", "model": "glm-4.6v", "base_url": "https://open.bigmodel.cn/api/paas/v4/", "api_key_env": "ZHIPU_API_KEY", "voice": "zh-CN-liaoning-XiaobeiNeural"},
+    {"name": "GPT-6 Sol", "model": "glm-4.6v", "base_url": "https://open.bigmodel.cn/api/paas/v4/", "api_key_env": "ZHIPU_API_KEY", "voice": "zh-CN-XiaoyiNeural"},
+    {"name": "千问", "model": "glm-4.6v", "base_url": "https://open.bigmodel.cn/api/paas/v4/", "api_key_env": "ZHIPU_API_KEY", "voice": "zh-CN-YunjianNeural;pitch=-10Hz;rate=+8%"},
+    {"name": "Claude Fable", "model": "glm-4.6v", "base_url": "https://open.bigmodel.cn/api/paas/v4/", "api_key_env": "ZHIPU_API_KEY", "voice": "zh-TW-HsiaoChenNeural"},
+    {"name": "Kimi", "model": "glm-4.6v", "base_url": "https://open.bigmodel.cn/api/paas/v4/", "api_key_env": "ZHIPU_API_KEY", "voice": "zh-CN-shaanxi-XiaoniNeural"},
+    {"name": "豆包", "model": "glm-4.6v", "base_url": "https://open.bigmodel.cn/api/paas/v4/", "api_key_env": "ZHIPU_API_KEY", "voice": "zh-TW-HsiaoYuNeural"},
+    {"name": "GLM", "model": "glm-4.6v", "base_url": "https://open.bigmodel.cn/api/paas/v4/", "api_key_env": "ZHIPU_API_KEY", "voice": "zh-CN-YunxiNeural;pitch=-12Hz;rate=-5%"},
+    {"name": "Gemini", "model": "glm-4.6v", "base_url": "https://open.bigmodel.cn/api/paas/v4/", "api_key_env": "ZHIPU_API_KEY", "voice": "zh-CN-YunxiaNeural"}
+  ]
+}

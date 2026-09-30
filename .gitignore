@@ -1,0 +1,12 @@
+# API key：千万不要上传
+keys.txt
+
+# 对局记录、配音、视频
+out/
+audio/
+*.mp4
+*.wav
+
+# Python
+__pycache__/
+*.pyc

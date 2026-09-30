@@ -1,0 +1,5 @@
+openai>=1.0
+numpy
+pillow
+edge-tts
+imageio-ffmpeg

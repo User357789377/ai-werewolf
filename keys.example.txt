@@ -1,0 +1,23 @@
+# 把这个文件复制一份，改名为 keys.txt，在等号后面填上各家的 API key。
+# 不用加引号；用不到的留空。keys.txt 千万不要上传或发给别人（.gitignore 已经把它排除了）。
+
+# Claude（1号、8号）
+ANTHROPIC_API_KEY=
+# GPT（2号、6号）
+OPENAI_API_KEY=
+# Gemini（12号）
+GEMINI_API_KEY=
+# DeepSeek（3号）
+DEEPSEEK_API_KEY=
+# 腾讯云 TokenHub：元宝 / 混元（4号）
+TOKENHUB_API_KEY=
+# MiniMax（5号）
+MINIMAX_API_KEY=
+# 阿里云百炼：千问（7号）
+DASHSCOPE_API_KEY=
+# Kimi（9号）
+MOONSHOT_API_KEY=
+# 火山方舟：豆包（10号）
+ARK_API_KEY=
+# 智谱：GLM（11号）；players_test.json 也只用这一个
+ZHIPU_API_KEY=

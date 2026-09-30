@@ -1,0 +1,17 @@
+{
+  "_说明": "12个座位按顺序对应1-12号。所有模型都走各家官方的 OpenAI 兼容接口；model 是模型名，以各家官方文档为准（新版本上线后可能要改），改完用 python werewolf.py --check 测一下。api_key_env 对应 keys.txt 里的名字。可选项：role（固定身份）、temperature、timeout、extra_body（思考强度等额外参数）、short（发言里称呼的简称）。voice 是配音音色（edge-tts 音色名，可在分号后加 pitch/rate）。name 要和 assets/avatars/ 里的头像文件名一致。",
+  "players": [
+    {"name": "Claude Opus", "model": "claude-opus-5-5", "base_url": "https://api.anthropic.com/v1/", "api_key_env": "ANTHROPIC_API_KEY", "voice": "zh-CN-YunjianNeural"},
+    {"name": "GPT-6 Astra", "model": "gpt-6-astra", "base_url": "https://api.openai.com/v1", "api_key_env": "OPENAI_API_KEY", "voice": "zh-CN-YunxiNeural"},
+    {"name": "DeepSeek", "model": "deepseek-v4-pro", "base_url": "https://api.deepseek.com", "api_key_env": "DEEPSEEK_API_KEY", "voice": "zh-TW-YunJheNeural"},
+    {"name": "元宝", "model": "hy3", "base_url": "https://tokenhub.tencentmaas.com/v1", "api_key_env": "TOKENHUB_API_KEY", "voice": "zh-CN-XiaoxiaoNeural"},
+    {"name": "MiniMax", "model": "minimax-m3", "base_url": "https://api.minimaxi.com/v1", "api_key_env": "MINIMAX_API_KEY", "voice": "zh-CN-liaoning-XiaobeiNeural"},
+    {"name": "GPT-6 Sol", "model": "gpt-6-sol", "base_url": "https://api.openai.com/v1", "api_key_env": "OPENAI_API_KEY", "voice": "zh-CN-XiaoyiNeural"},
+    {"name": "千问", "model": "qwen3.8-max", "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1", "api_key_env": "DASHSCOPE_API_KEY", "voice": "zh-CN-YunjianNeural;pitch=-10Hz;rate=+8%"},
+    {"name": "Claude Fable", "model": "claude-fable-5-1", "base_url": "https://api.anthropic.com/v1/", "api_key_env": "ANTHROPIC_API_KEY", "voice": "zh-TW-HsiaoChenNeural"},
+    {"name": "Kimi", "model": "kimi-k2.6", "base_url": "https://api.moonshot.cn/v1", "api_key_env": "MOONSHOT_API_KEY", "voice": "zh-CN-shaanxi-XiaoniNeural"},
+    {"name": "豆包", "model": "doubao-seed-evolving", "base_url": "https://ark.cn-beijing.volces.com/api/v3", "api_key_env": "ARK_API_KEY", "voice": "zh-TW-HsiaoYuNeural"},
+    {"name": "GLM", "model": "glm-5.3", "base_url": "https://open.bigmodel.cn/api/paas/v4/", "api_key_env": "ZHIPU_API_KEY", "voice": "zh-CN-YunxiNeural;pitch=-12Hz;rate=-5%"},
+    {"name": "Gemini", "model": "gemini-3.8-flash", "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/", "api_key_env": "GEMINI_API_KEY", "voice": "zh-CN-YunxiaNeural"}
+  ]
+}
